@@ -55,7 +55,7 @@ with lock:
         else:
             # get and remove env from clist
             env = clist.pop(0)
-            # return env name
+            
             print(env)
 
     # save hickle file
